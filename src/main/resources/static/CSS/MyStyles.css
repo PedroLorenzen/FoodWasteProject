@@ -10,17 +10,21 @@
 .baggrundsfarve
 {
     background:#ffd700;
+    margin:-8px;
+
+
 }
 
 .header
 {
-    margin-top: 5px;
-    background:#ffd700;
+    padding-top: 25px;
+
 
 }
 .LogoText
 {
     font-family: Avenir, "Times New Roman";
+
 
 }
 
@@ -30,8 +34,9 @@
 {
    width: 50%;
     /*margin: 30px;*/
-    margin-top: 30px;
+    margin-top: 8px;
     float: right;
+    border-radius: 200px 0px 0px 200px;
 
    /* position: relative; top: 140px; left: 550px;*/
 
@@ -46,19 +51,25 @@
     margin-left: 60px;
 }
 
-.OversteTekst
-{
-    background-color: #ffd700;
-    height: 600px;
+.OversteTekst {
+
+    height: 400px;
     width: 100%;
     margin-top: -20px;
-
-
-
+}
+.Logo
+{
+    margin-left: 35px;
 
 
 
 }
+
+
+
+
+
+
 
 .overskrift
 {
@@ -100,6 +111,7 @@
 {
     margin-left: 25px;
     margin-right: 25px;
+
 }
 .hr2
 {
@@ -109,11 +121,19 @@
     border: 1.3px solid black;
 }
 
+.opdeling
+{
+    margin-left:-8px;
+    margin-right: -8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 8px solid seagreen;
 
+}
 
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #309C01;
+    background-color: seagreen;
     border-radius: 20px;
     color: white;
     padding: 10px 50px;
@@ -126,6 +146,7 @@
 .dropdowntn {
     position: relative;
     display: inline-block;
+
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -136,6 +157,8 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding: 5px;
+
 }
 
 /* Links inside the dropdown */
@@ -144,6 +167,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 }
 
 /* Change color of dropdown links on hover */
@@ -158,3 +182,4 @@
 .dropdowntn:hover .dropbtn {
     background-color: #3e8e41;
 }
+
