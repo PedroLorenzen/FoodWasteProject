@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(../Font/Avenir.ttf) format("truetype");
+}
+.header
+{
+    /*border-bottom: 1px solid black;
+    border-top: 1px solid black;*/
+    margin-top: 30px;
+}
+.LogoText
+{
+    font-family: Avenir, "Times New Roman";
+}
+
+.dropdown
+{
+    float: right;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-family: Avenir, "Times New Roman";
+    justify-content: space-between;
+}
+.dropdown1, .dropdown2, .dropdown3
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.hr2
+{
+    margin-left: 20%;
+    margin-top: -7.5px;
+    margin-bottom: 10px;
+    border: 1.3px solid black;
+}
