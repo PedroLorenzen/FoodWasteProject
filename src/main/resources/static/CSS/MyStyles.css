@@ -97,6 +97,27 @@
 {
     text-align: center;
 }
+
+details > summary {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 4px;
+    width: 800px;
+    border: solid black;
+    cursor: pointer;
+    list-style-type: "\1F44D"; // thumbs;
+}
+details > p {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: yellow;
+    opacity: 70%;
+    padding: 20px;
+    width: 800px;
+}
+
 .dropdown
 {
     float: right;
@@ -182,4 +203,6 @@
 .dropdowntn:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+
 
