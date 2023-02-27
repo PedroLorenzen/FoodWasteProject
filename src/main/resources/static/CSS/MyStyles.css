@@ -21,36 +21,54 @@
 .forsideBillede
 {
    width: 50%;
-    margin: 30px;
-    position: absolute; top: 140px; left: 550px;
+    /*margin: 30px;*/
+    margin-top: 10px;
+    float: right;
+
+   /* position: relative; top: 140px; left: 550px;*/
 
 }
 
 .forsideTekst
 {
-    position: relative; top: 120px; left: 30px;
+    /*position: relative; top: 120px; left: 30px;*/
     float: left;
     width: 41%;
+    font-family: Avenir, "Times New Roman";
+    margin-left: 20px;
+}
+
+.OversteTekst
+{
+    background-color: #F6E04B;
+    height: 370px;
+
 }
 
 .overskrift
 {
-    position: absolute; top: 175px; left: 10px;
+    /*position: relative; top: 175px; left: 10px;*/
     margin-left: 100px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 30px;
 }
 
-.FactsOmMadspild{
-    position: absolute; left: 300px; top: 500px;
+.FactsOmMadspild
+{
+    text-align: center;
+    font-family: Avenir, "Times New Roman";
+    font-size: 30px;
 }
 
-.DanskeFacts{
-    position: absolute; left: 300px; top: 800px;
+.DanskeFacts
+{
+    text-align: center;
 }
 
-.kat{
-    position: absolute; left: 300px; top: 1000px;
+.kat
+{
+    text-align: center;
 }
-
 .dropdown
 {
     float: right;
