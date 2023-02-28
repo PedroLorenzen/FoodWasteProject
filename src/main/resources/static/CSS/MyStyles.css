@@ -32,7 +32,7 @@
 
 .forsideBillede
 {
-   width: 50%;
+    width: 50%;
     /*margin: 30px;*/
     margin-top: 8px;
     float: right;
@@ -153,7 +153,81 @@ details > p {
     border: 8px solid seagreen;
 }
 
+.bundBaggrund
+{
+    background: #ffd700;
+    height: 500px;
+    margin: -20px -8px 0 -8px;
+}
+
+.row
+{
+    display: flex;
+
+}
+
+.column
+{
+    flex: 25%;
+    margin: 50px;
+}
+
+.bundknap1
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    font-family: Avenir, "Times New Roman";
+    justify-content: center;
+    padding: 4px;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    background-color: seagreen;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.bundknap2
+{
+
+}
+
+.bundknap3
+{
+
+}
 
 
 
+/* Start på footer redigering */
+
+/*.Produktion
+{
+    float: right;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    border-radius: 10px 10px 10px 10px;
+}
+.Forbruger
+{
+    border-radius: 10px 10px 10px 10px;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+.Detail
+{
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0;
+}*/
+
+
+
+/* Slut på footer redigering */
 
