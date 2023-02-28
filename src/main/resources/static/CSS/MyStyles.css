@@ -5,7 +5,8 @@
     src: url(../Font/Avenir.ttf) format("truetype");
 }
 
-/* Her starter vi med at redigere header*/
+/* Her slutter vi med at redigere header*/
+/* Her starter vi med at redigere øverste gule område til forside*/
 
 .baggrundsfarve
 {
@@ -24,7 +25,6 @@
 .LogoText
 {
     font-family: Avenir, "Times New Roman";
-
 
 }
 
@@ -52,27 +52,22 @@
 }
 
 .OversteTekst {
-
     height: 400px;
     width: 100%;
     margin-top: -20px;
 }
+
 .Logo
 {
     margin-left: 35px;
-
-
-
 }
-
 
 .overskrift
 {
     /*position: relative; top: 175px; left: 10px;*/
-    margin-left: 100px;
     font-family: Avenir, "Times New Roman";
     font-size: 30px;
-    margin-left: 250px;
+    margin-left: 180px;
     margin-top: 80px
 }
 
@@ -97,12 +92,16 @@ details > summary {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    display: flex;
+    font-family: Avenir, "Times New Roman";
+    justify-content: center;
     padding: 4px;
-    width: 800px;
-    border: solid seagreen;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    background-color: seagreen;
     cursor: pointer;
     list-style-type: none;
-
 }
 
 summary:hover{
@@ -112,11 +111,13 @@ summary:hover{
 details > p {
     margin-left: auto;
     margin-right: auto;
+    color: white;
     border-radius: 20px;
-    background-color: yellow;
-    opacity: 70%;
+    font-size: 25px;
+    background-color: seagreen;
+    opacity: 90%;
     padding: 20px;
-    width: 800px;
+    width: 750px;
 }
 
 .dropdown
@@ -133,11 +134,11 @@ details > p {
 {
     margin-left: 25px;
     margin-right: 25px;
-
 }
+
 .hr2
 {
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: -7.5px;
     margin-bottom: 10px;
     border: 1.3px solid black;
@@ -145,65 +146,14 @@ details > p {
 
 .opdeling
 {
-    margin-left:-8px;
+    margin-left:-8%;
     margin-right: -8px;
     margin-top: 0px;
     margin-bottom: 20px;
     border: 8px solid seagreen;
-
 }
 
-/* Style The Dropdown Button */
-.dropbtn {
-    background-color: seagreen;
-    border-radius: 20px;
-    color: white;
-    padding: 10px 50px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-/* The container <div> - needed to position the dropdown content */
-.dropdowntn {
-    position: relative;
-    display: inline-block;
-
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 5px;
-
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdowntn:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdowntn:hover .dropbtn {
-    background-color: #3e8e41;
-}
 
 
 
