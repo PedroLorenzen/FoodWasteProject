@@ -125,9 +125,10 @@
 .fSpan1
 {
     float: left;
-    width: 41%;
-    margin-top: 61px;
-    margin-left: 60px;
+    width: 45%;
+    margin: 70px 70px 70px 70px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
 
 }
 
@@ -147,8 +148,10 @@
 .fSpan2
 {
     float: right;
-    margin-top: 380px;
-    margin-right: 60px;
+    width: 45%;
+    margin: 70px 70px 70px 70px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
 }
 
 .fBaggrund3
@@ -168,8 +171,10 @@
 .fSpan3
 {
     float: left;
-    margin-top: 350px;
-    margin-left: 60px;
+    width: 45%;
+    margin: 70px 70px 70px 70px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
 }
 
 .baggrundsfarveBund
