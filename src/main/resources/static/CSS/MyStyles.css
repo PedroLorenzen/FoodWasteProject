@@ -156,7 +156,7 @@ details > p {
 .bundBaggrund
 {
     background: #ffd700;
-    height: 500px;
+    height: 530px;
     margin: -20px -8px 0 -8px;
 }
 
@@ -172,18 +172,23 @@ details > p {
     margin: 50px;
 }
 
-.bundknap1
+.bundknapper
 {
-
-}
-.bundknap2
-{
-
+    display: flex;
+    justify-content: space-between;
 }
 
-.bundknap3
+.bundknap
 {
-
+    padding: 10px 20px;
+    margin: 0 80px 0 80px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 
