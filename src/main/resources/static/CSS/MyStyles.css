@@ -174,21 +174,8 @@ details > p {
 
 .bundknap1
 {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    display: flex;
-    font-family: Avenir, "Times New Roman";
-    justify-content: center;
-    padding: 4px;
-    font-size: 25px;
-    color: white;
-    width: 400px;
-    background-color: seagreen;
-    cursor: pointer;
-    list-style-type: none;
-}
 
+}
 .bundknap2
 {
 
