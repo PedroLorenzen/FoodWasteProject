@@ -135,6 +135,17 @@ details > p {
     margin-left: 25px;
     margin-right: 25px;
 }
+/*Sørger for at links ikke bliver lilla efter man har cliket på dem*/
+.topLinkFarve:visited
+{
+    color: black;
+}
+
+.bundLinkFarve:visited
+{
+    color: white;
+}
+
 
 .hr2
 {
