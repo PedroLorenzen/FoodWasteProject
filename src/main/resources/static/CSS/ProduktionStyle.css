@@ -191,3 +191,13 @@
     margin-bottom: 20px;
     border: 8px solid seagreen;
 }
+
+.topLinkFarve:visited
+{
+    color: black;
+}
+
+.bundLinkFarve:visited
+{
+    color: white;
+}
