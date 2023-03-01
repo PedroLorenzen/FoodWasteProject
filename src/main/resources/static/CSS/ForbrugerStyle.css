@@ -69,11 +69,6 @@
     margin-top: 80px
 }
 
-.kat
-{
-    text-align: center;
-}
-
 .dropdown
 {
     float: right;
@@ -200,6 +195,44 @@
 .bundLinkFarve:visited
 {
     color: white;
+}
+
+.bundBaggrund
+{
+    background: #ffd700;
+    height: 530px;
+    margin: -20px -8px 0 -8px;
+}
+
+.row
+{
+    display: flex;
+
+}
+
+.column
+{
+    flex: 25%;
+    margin: 50px;
+}
+
+.bundknapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bundknap
+{
+    padding: 10px 20px;
+    margin: 0 80px 0 80px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 
