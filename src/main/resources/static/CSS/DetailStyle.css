@@ -26,6 +26,16 @@
 
 }
 
+.topLinkFarve:visited
+{
+    color: black;
+}
+
+.bundLinkFarve:visited
+{
+    color: white;
+}
+
 /* Her slutter vi med at redigere header*/
 
 .forsideBillede
@@ -185,19 +195,62 @@
     margin:-20px;
 }
 
+/* Start af forsidebund */
+
 .opdelingBund
 {
     margin-left:-8%;
     margin-right: -8px;
-    margin-top: -10px;
+    margin-top: -19px;
     margin-bottom: 20px;
     border: 8px solid seagreen;
 }
 
+.bundBaggrund
+{
+    background: #ffd700;
+    height: 530px;
+    margin: -20px -8px 0 -8px;
+}
+
+.row
+{
+    display: flex;
+
+}
+
+.column
+{
+    flex: 25%;
+    margin: 30px;
+    text-align: center;
+}
+
+.bundknapper
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bundknap
+{
+    padding: 10px 20px;
+    margin: 0 80px 0 80px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Slut af forsidebund */
+
 /* Start af footer */
 
 footer {
-    background-color: #ffd700;
+    background-color: seagreen;
     font-size: 16px;
     margin: -20px -20px 0px -20px;
     height: 330px;
@@ -214,11 +267,13 @@ footer {
     max-width: 100%;
     text-align: center;
     font-family: Avenir, "Times New Roman";
+    color: white;
 }
 
 .footer-content h3 {
     font-size: 24px;
     font-family: Avenir, "Times New Roman";
+    color: white;
 }
 
 ul {
@@ -227,23 +282,13 @@ ul {
 }
 
 a {
-    color: black;
+    color: white;
     font-family: Avenir, "Times New Roman";
     text-decoration: none;
 }
 
 a:hover {
-    color: seagreen;
-}
-
-.topLinkFarve:visited
-{
     color: black;
-}
-
-.bundLinkFarve:visited
-{
-    color: white;
 }
 
 

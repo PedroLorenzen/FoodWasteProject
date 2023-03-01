@@ -159,7 +159,7 @@ details > p {
 {
     margin-left:-8%;
     margin-right: -8px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px;
     border: 8px solid seagreen;
 }
@@ -181,6 +181,7 @@ details > p {
 {
     flex: 25%;
     margin: 50px;
+    text-align: center;
 }
 
 .bundknapper
@@ -202,35 +203,49 @@ details > p {
     cursor: pointer;
 }
 
+/* Start af footer */
 
-
-/* Start på footer redigering */
-
-/*.Produktion
-{
-    float: right;
-    padding: 0;
-    display: inline-block;
-    margin: 0;
-    border-radius: 10px 10px 10px 10px;
+footer {
+    background-color: seagreen;
+    font-size: 16px;
+    margin: -20px -20px 0px -20px;
+    height: 330px;
 }
-.Forbruger
-{
-    border-radius: 10px 10px 10px 10px;
-    padding: 0;
-    display: inline-block;
-    float: left;
-    margin: 0;
+
+.footer-container {
+    display: flex;
+    justify-content: center;
 }
-.Detail
-{
-    margin: 0 auto;
-    display: inline-block;
-    border-radius: 10px 10px 10px 10px;
+
+.footer-content {
+    margin: 50px;
+    width: 280px;
+    max-width: 100%;
+    text-align: center;
+    font-family: Avenir, "Times New Roman";
+    color: white;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    font-family: Avenir, "Times New Roman";
+    color: white;
+}
+
+ul {
+    list-style: none;
     padding: 0;
-}*/
+}
 
+a {
+    color: white;
+    font-family: Avenir, "Times New Roman";
+    text-decoration: none;
+}
 
+a:hover {
+    color: black;
+}
 
-/* Slut på footer redigering */
+/* Slut af footer */
 
