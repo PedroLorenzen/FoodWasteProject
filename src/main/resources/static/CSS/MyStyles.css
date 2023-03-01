@@ -5,45 +5,77 @@
     src: url(../Font/Avenir.ttf) format("truetype");
 }
 
-/* Her slutter vi med at redigere header*/
-/* Her starter vi med at redigere øverste gule område til forside*/
+/*Start på header*/
 
 .baggrundsfarve
 {
     background:#ffd700;
     margin:-8px;
+}
 
-
+.Logo
+{
+    margin-left: 35px;
 }
 
 .header
 {
     padding-top: 25px;
-
-
 }
 .LogoText
 {
     font-family: Avenir, "Times New Roman";
-
 }
 
-/* Her slutter vi med at redigere header*/
+.dropdown
+{
+    float: right;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-right: 40px;
+    margin-top: 70px;
+    font-family: Avenir, "Times New Roman";
+    justify-content: space-between;
+}
+
+.dropdown1, .dropdown2, .dropdown3
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.topLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
+{
+    color: black;
+}
+
+.bundLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
+{
+    color: white;
+}
+
+/*Slut på header*/
+
+.hr2
+{
+    margin-left: 22%;
+    margin-top: -7.5px;
+    margin-bottom: 10px;
+    border: 1.3px solid black;
+}
+
+/*Start på forside top*/
 
 .forsideBillede
 {
     width: 50%;
     margin-top: 8px;
     float: right;
-    border-radius: 200px 0px 0px 200px;
-
-   /* position: relative; top: 140px; left: 550px;*/
-
+    border-radius: 200px 0 0 200px;
 }
 
 .forsideTekst
 {
-    /*position: relative; top: 120px; left: 30px;*/
     float: left;
     width: 41%;
     font-family: Avenir, "Times New Roman";
@@ -57,19 +89,23 @@
     margin-top: -20px;
 }
 
-.Logo
-{
-    margin-left: 35px;
-}
-
 .overskrift
 {
-    /*position: relative; top: 175px; left: 10px;*/
     font-family: Avenir, "Times New Roman";
     font-size: 30px;
     margin-left: 62px;
     margin-top: 80px
 }
+
+/*Slut på forside top*/
+
+.opdeling
+{
+    margin: 0 -8px 20px -8%;
+    border: 8px solid seagreen;
+}
+
+/*Start på dropdown facts*/
 
 .FactsOmMadspild
 {
@@ -78,17 +114,8 @@
     font-size: 30px;
 }
 
-.DanskeFacts
+details > summary /* > betyder nestet ord skal manipuleres */
 {
-    text-align: center;
-}
-
-.kat
-{
-    text-align: center;
-}
-
-details > summary {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -104,11 +131,13 @@ details > summary {
     list-style-type: none;
 }
 
-summary:hover{
+summary:hover
+{
     color:#ffd700;
 }
 
-details > p {
+details > p
+{
     font-family: Avenir, "Times New Roman";
     margin-left: auto;
     margin-right: auto;
@@ -121,55 +150,15 @@ details > p {
     width: 750px;
 }
 
-.dropdown
-{
-    float: right;
-    font-size: 18px;
-    margin-left: 500px;
-    margin-right: 40px;
-    margin-top: 70px;
-    font-family: Avenir, "Times New Roman";
-    justify-content: space-between;
-}
-.dropdown1, .dropdown2, .dropdown3
-{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-/*Sørger for at links ikke bliver lilla efter man har cliket på dem*/
-.topLinkFarve:visited
-{
-    color: black;
-}
+/*Slut på dropdown facts*/
 
-.bundLinkFarve:visited
-{
-    color: white;
-}
-
-
-.hr2
-{
-    margin-left: 22%;
-    margin-top: -7.5px;
-    margin-bottom: 10px;
-    border: 1.3px solid black;
-}
-
-.opdeling
-{
-    margin-left:-8%;
-    margin-right: -8px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    border: 8px solid seagreen;
-}
+/*Start på forside bund*/
 
 .bundBaggrund
 {
     background: #ffd700;
     height: 530px;
-    margin: -20px -8px 0px -8px;
+    margin: -20px -8px 0 -8px;
 }
 
 .row
@@ -204,21 +193,26 @@ details > p {
     cursor: pointer;
 }
 
+/*Slut på forside bund*/
+
 /* Start af footer */
 
-footer {
+footer
+{
     background-color: seagreen;
     font-size: 16px;
     margin: -20px -20px -20px -20px;
     height: 330px;
 }
 
-.footer-container {
+.footer-container
+{
     display: flex;
     justify-content: center;
 }
 
-.footer-content {
+.footer-content
+{
     margin: 50px;
     width: 280px;
     max-width: 100%;
@@ -227,24 +221,28 @@ footer {
     color: white;
 }
 
-.footer-content h3 {
+.footer-content h3
+{
     font-size: 24px;
     font-family: Avenir, "Times New Roman";
     color: white;
 }
 
-ul {
+ul
+{
     list-style: none;
     padding: 0;
 }
 
-a {
+a
+{
     color: white;
     font-family: Avenir, "Times New Roman";
     text-decoration: none;
 }
 
-a:hover {
+a:hover
+{
     color: black;
 }
 

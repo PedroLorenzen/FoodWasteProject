@@ -5,8 +5,7 @@
     src: url(../Font/Avenir.ttf) format("truetype");
 }
 
-/* Her slutter vi med at redigere header*/
-/* Her starter vi med at redigere øverste gule område til forside*/
+/* Start på header */
 
 .baggrundsfarve
 {
@@ -17,42 +16,67 @@
 .header
 {
     padding-top: 25px;
-
-
 }
+
+.Logo
+{
+    margin-left: 35px;
+}
+
 .LogoText
 {
     font-family: Avenir, "Times New Roman";
-
 }
 
-.topLinkFarve:visited
+.dropdown
+{
+    float: right;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-right: 40px;
+    margin-top: 70px;
+    font-family: Avenir, "Times New Roman";
+    justify-content: space-between;
+}
+
+.dropdown1, .dropdown2, .dropdown3
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.topLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
 {
     color: black;
 }
 
-.bundLinkFarve:visited
+.bundLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
 {
     color: white;
 }
 
-/* Her slutter vi med at redigere header*/
+/* Slut på header*/
+
+.hr2
+{
+    margin-left: 22%;
+    margin-top: -7.5px;
+    margin-bottom: 10px;
+    border: 1.3px solid black;
+}
+
+/* Start på Top */
 
 .forsideBillede
 {
     width: 50%;
-    /*margin: 30px;*/
     margin-top: 8px;
     float: right;
-    border-radius: 200px 0px 0px 200px;
-
-    /* position: relative; top: 140px; left: 550px;*/
-
+    border-radius: 200px 0 0 200px;
 }
 
 .forsideTekst
 {
-    /*position: relative; top: 120px; left: 30px;*/
     float: left;
     width: 41%;
     font-family: Avenir, "Times New Roman";
@@ -66,59 +90,24 @@
     margin-top: -20px;
 }
 
-.Logo
-{
-    margin-left: 35px;
-}
-
 .overskrift
 {
-    /*position: relative; top: 175px; left: 10px;*/
     font-family: Avenir, "Times New Roman";
     font-size: 30px;
     margin-left: 62px;
     margin-top: 80px
 }
 
-.kat
-{
-    text-align: center;
-}
-
-.dropdown
-{
-    float: right;
-    font-size: 18px;
-    margin-left: 500px;
-    margin-right: 40px;
-    margin-top: 70px;
-    font-family: Avenir, "Times New Roman";
-    justify-content: space-between;
-}
-.dropdown1, .dropdown2, .dropdown3
-{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.hr2
-{
-    margin-left: 22%;
-    margin-top: -7.5px;
-    margin-bottom: 10px;
-    border: 1.3px solid black;
-}
+/* Slut på top */
 
 .opdeling
 {
-    margin-left:-8%;
-    margin-right: -8px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px -8px 20px -8%;
     border: 8px solid seagreen;
-
-
 }
+
+/* Start på midt */
+
 .fBaggrund1
 {
     background-color: beige;
@@ -128,7 +117,7 @@
 }
 .forbrugerbillede1
 {
-    margin-top: 0px;
+    margin-top: 0;
     align-items:center;
     float: right;
     width: 40%;
@@ -153,7 +142,7 @@
 .forbrugerbillede2
 {
     width: 40%;
-    margin-top: 0px;
+    margin-top: 0;
     float: left;
 }
 
@@ -176,7 +165,7 @@
 .forbrugerbillede3
 {
     width: 40%;
-    margin-top: 0px;
+    margin-top: 0;
     float: right;
 }
 
@@ -189,21 +178,20 @@
     font-size: 20px;
 }
 
+/* Slut på midt */
+
+.opdelingBund
+{
+    margin: -19px -8px 20px -8%;
+    border: 8px solid seagreen;
+}
+
+/* Start på bund */
+
 .baggrundsfarveBund
 {
     background:#ffd700;
     margin:-20px;
-}
-
-/* Start af forsidebund */
-
-.opdelingBund
-{
-    margin-left:-8%;
-    margin-right: -8px;
-    margin-top: -19px;
-    margin-bottom: 20px;
-    border: 8px solid seagreen;
 }
 
 .bundBaggrund
@@ -245,23 +233,26 @@
     cursor: pointer;
 }
 
-/* Slut af forsidebund */
+/* Slut på forsidebund */
 
-/* Start af footer */
+/* Start på footer */
 
-footer {
+footer
+{
     background-color: seagreen;
     font-size: 16px;
     margin: -20px -20px -20px -20px;
     height: 330px;
 }
 
-.footer-container {
+.footer-container
+{
     display: flex;
     justify-content: center;
 }
 
-.footer-content {
+.footer-content
+{
     margin: 50px;
     width: 280px;
     max-width: 100%;
@@ -270,26 +261,30 @@ footer {
     color: white;
 }
 
-.footer-content h3 {
+.footer-content h3
+{
     font-size: 24px;
     font-family: Avenir, "Times New Roman";
     color: white;
 }
 
-ul {
+ul
+{
     list-style: none;
     padding: 0;
 }
 
-a {
+a
+{
     color: white;
     font-family: Avenir, "Times New Roman";
     text-decoration: none;
 }
 
-a:hover {
+a:hover
+{
     color: black;
 }
 
 
-/* Slut af footer */
+/* Slut på footer */
