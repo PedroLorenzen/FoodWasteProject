@@ -1,6 +1,7 @@
 
-/* Her sætter vi font type vi vil importere */
-@font-face {
+
+@font-face /* Her sætter vi font type vi vil importere */
+{
     font-family: "Avenir";
     src: url(../Font/Avenir.ttf) format("truetype");
 }
