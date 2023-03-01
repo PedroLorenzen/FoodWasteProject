@@ -213,13 +213,14 @@
 .column
 {
     flex: 25%;
-    margin: 50px;
+    margin: 30px;
+    text-align: center;
 }
 
 .bundknapper
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bundknap
