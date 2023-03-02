@@ -154,7 +154,10 @@ details > p
 /*Slut på dropdown facts*/
 
 /*Start på forside bund*/
+.whitespace{
+    margin-bottom: 30px;
 
+}
 .bundBaggrund
 {
     background: #ffd700;
@@ -183,8 +186,8 @@ details > p
 
 .bundknap
 {
-    padding: 10px 20px;
-    margin: 0 80px 0 80px;
+    padding: 10px;
+    margin: 0 102px 0 102px;
     font-family: Avenir, "Times New Roman";
     font-size: 20px;
     text-align: center;
